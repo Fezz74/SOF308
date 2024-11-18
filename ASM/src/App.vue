@@ -4,6 +4,8 @@ import register from './components/register.vue'
 import headertop from './components/headertop.vue'
 import bodymain from './components/bodymain.vue'
 import footerbottom from './components/footerbottom.vue'
+import bodycenter from './components/bodycenter.vue';
+import detail from './components/detail.vue';
 
 export default {  
   name: 'App',  
@@ -11,7 +13,9 @@ export default {
     register,  
     headertop,
     bodymain,
-    footerbottom
+    footerbottom,
+    bodycenter,
+    detail
   }  
 }
 
@@ -19,35 +23,6 @@ export default {
 
 <template> 
   <headertop></headertop>
-  <bodymain></bodymain>
-  <!-- <footerbottom></footerbottom> -->
+  <bodycenter></bodycenter>
+  <footerbottom></footerbottom>
 </template>   
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>

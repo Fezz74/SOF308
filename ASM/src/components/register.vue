@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container m-5 p-5">
         <h2>Form Đăng Ký</h2>
         <form class="border border-secondary p-3">
           <div class="mb-3">

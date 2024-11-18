@@ -1,4 +1,5 @@
 <template>
+  <div class="container p-5 m-5">
     <h2>Form Đăng nhập</h2>
         <form class="border border-danger-subtle p-3">
           <div class="mb-3">
@@ -12,4 +13,6 @@
 
           <button type="submit" class="btn btn-primary">Đăng Nhập</button>
         </form>
+  </div>
+    
 </template>

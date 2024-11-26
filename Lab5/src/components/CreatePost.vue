@@ -6,7 +6,6 @@
           <div class="card-header bg-primary text-white">
             <h2 class="text-center mb-0">Tạo bài viết mới</h2>
           </div>
-
           <div class="card-body p-4">
             <!-- Tiêu đề -->
             <div class="mb-3">

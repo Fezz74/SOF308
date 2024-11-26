@@ -95,6 +95,7 @@
     }
     function deleteStudent(index){
         students.value.splice(index,1);
+        resetForm();
     }
 
 </script>

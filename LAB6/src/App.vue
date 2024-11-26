@@ -7,9 +7,16 @@ import Bai4 from './components/Bai4.vue'
 
 <template>
   <div class="container">
+    <h1>Bài 1</h1>
     <Bai1></Bai1>
+    <hr>
+    <h1>Bài 2</h1>
     <Bai2></Bai2>
+    <hr>
+    <h1>Bài 3</h1>
     <Bai3></Bai3>
+    <hr>
+    <h1>Bài 4</h1>
     <Bai4></Bai4>
   </div>
   

@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   server:{
-   port: 3500, 
+   port: 5001, 
   },
   optimizeDeps: {  
     include: ['bootstrap']  

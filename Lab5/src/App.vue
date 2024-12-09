@@ -18,7 +18,13 @@ import bai1 from './components/bai1.vue';
 import bai3 from './components/bai3.vue';
 import bai2 from './components/bai2.vue';
 
-const posts = ref([]);
+const posts = ref([
+    {
+      title: "dsdf",
+      content: "content.value",
+      author:" author.value"
+    }
+]);
 
 function addPost(post) {
   posts.value.push(post);

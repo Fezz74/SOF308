@@ -49,14 +49,14 @@ const author = ref('')
 
 function submitPost() {
   if (title.value && content.value && author.value) {
+
     const newPost = {
       title: title.value,
       content: content.value,
       author: author.value
     }
-
     // Gửi sự kiện 'add-post' với dữ liệu của bài viết
-    emit('add-post', newPost)
+    emit('add-post', newPost)``
 
     // Reset fields
     title.value = ''
